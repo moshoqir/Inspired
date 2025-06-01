@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Inspired</title>
+    <title>ألهمني</title>
 
     <!-- Font Awesome 6 (Free Version) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -19,6 +19,9 @@
     <link href="{{ asset('css/bootstrap-icons.css') }}" rel="stylesheet">
 
     <link href="{{ asset('css/templatemo-kind-heart-charity.css') }}" rel="stylesheet">
+
+
+
     <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.png') }}">
 
 
@@ -26,14 +29,14 @@
 
 <body id="section_1">
 
-    <header class="site-header">
+    <header class="site-header" style="direction: ltr">
         <div class="container">
             <div class="row">
 
                 <div class="col-lg-8 col-12 d-flex flex-wrap">
                     <p class="d-flex me-4 mb-0">
                         <i class="bi-geo-alt me-2"></i>
-                        Tabarbur, Amman, Jordan
+                        طبربور\ عمان - الأردن
                     </p>
 
                     <p class="d-flex mb-0">
@@ -47,27 +50,30 @@
 
                 <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
                     <ul class="social-icon">
-
                         <li class="social-icon-item">
                             <a href="#" class="social-icon-link bi-twitter"></a>
                         </li>
+
                         <li class="social-icon-item">
                             <a href="#" class="social-icon-link bi-facebook"></a>
                         </li>
+
                         <li class="social-icon-item">
                             <a href="#" class="social-icon-link bi-instagram"></a>
                         </li>
+
                         <li class="social-icon-item">
                             <a href="#" class="social-icon-link bi-youtube"></a>
                         </li>
+
                         <li class="social-icon-item">
                             <a href="#" class="social-icon-link bi-whatsapp"></a>
                         </li>
 
                         <li class="social-icon-item">
-                            <a href="{{ route('arabic') }}" class="social-icon-link">
+                            <a href="/" class="social-icon-link">
                                 <i class="fas fa-globe"></i>
-                                <span class="current-lang">EN</span>
+                                <span class="current-lang">AR</span>
                             </a>
                         </li>
                     </ul>
@@ -82,8 +88,8 @@
             <a class="navbar-brand" href="/">
                 <img src="images/logo.png" class="logo img-fluid" alt="Kind Heart Charity">
                 <span>
-                    Inspired Me
-                    <small>Helping Organization</small>
+                    ألهمني
+                    <small>منظمة مساعدة</small>
                 </span>
             </a>
 
@@ -92,25 +98,26 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav" style="margin-right: 23rem;
+">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#top">Home</a>
+                        <a class="nav-link click-scroll" href="#top">الرئيسية</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_2">About</a>
+                        <a class="nav-link click-scroll" href="#section_2">من نحن</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_3">Services</a>
+                        <a class="nav-link click-scroll" href="#section_3">خدماتنا</a>
                     </li>
 
 
 
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_6">Contact</a>
+                        <a class="nav-link click-scroll" href="#section_6">تواصل معنا</a>
                     </li>
 
 
@@ -133,9 +140,9 @@
                                         alt="...">
 
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
-                                        <h1 style="font-size: 41px">Empowering Abilities</h1>
+                                        <h1 style="">تمكين القدرات</h1>
 
-                                        <p> Fostering skills and inclusion for youth with disabilities.
+                                        <p> تعزيز المهارات والإدماج للشباب ذوي الإحتياجات الخاصة.
                                         </p>
                                     </div>
                                 </div>
@@ -145,9 +152,9 @@
                                         alt="...">
 
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
-                                        <h1>Real Learning</h1>
+                                        <h1>تعليم حقيقي</h1>
 
-                                        <p> hands-on experiences that inspire growth.
+                                        <p> من الفصول الدراسية إلى المجتمعات، تجارب عملية تلهم النمو.
                                         </p>
                                     </div>
                                 </div>
@@ -157,9 +164,9 @@
                                         alt="...">
 
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
-                                        <h1>Building Futures</h1>
+                                        <h1>بناء المستقبل</h1>
 
-                                        <p>Preparing young individuals for vocational excellence and life.</p>
+                                        <p>إعداد الشباب للتميز المهني والحياة</p>
                                     </div>
                                 </div>
                             </div>
@@ -580,11 +587,11 @@
 
                                 <p class="d-flex mb-2">
                                     <i class="bi-geo-alt me-2"></i>
-                                    Tabarbur, Amman, Jordan
+                                    طبربور\ عمان - الأردن
                                 </p>
 
                                 <p class="d-flex mb-2">
-                                    <i class="bi-telephone me-2"></i>
+                                    <i class="bi-telephone me-2 mx-1"></i>
 
                                     <a href="tel: 120-240-9600">
                                         120-240-9600
@@ -592,7 +599,7 @@
                                 </p>
 
                                 <p class="d-flex">
-                                    <i class="bi-envelope me-2"></i>
+                                    <i class="bi-envelope me-2 mx-1"></i>
 
                                     <a href="mailto:info@yourgmail.com">
                                         donate@charity.org
@@ -614,19 +621,19 @@
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <input type="text" name="first-name" id="first-name" class="form-control"
-                                        placeholder="First Name" required>
+                                        placeholder="الاسم الاول" required>
                                 </div>
 
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <input type="text" name="last-name" id="last-name" class="form-control"
-                                        placeholder="Last Name" required>
+                                        placeholder="الاسم الاخير" required>
                                 </div>
                             </div>
 
                             <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"
-                                class="form-control" placeholder="Email" required>
+                                class="form-control" placeholder="البريد الاكتروني" required>
 
-                            <textarea name="message" rows="5" class="form-control" id="message" placeholder="What can we help you?"></textarea>
+                            <textarea name="message" rows="5" class="form-control" id="message" placeholder="بماذا يمكننا مساعدتك؟"></textarea>
 
                             <button type="submit" class="form-control">Send Message</button>
                         </form>
@@ -646,30 +653,25 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12 mb-4">
-                    <h5 class="site-footer-title mb-3 text-white">Quick Links</h5>
+                    <h5 class="site-footer-title mb-3 text-white">روابط</h5>
 
                     <ul class="footer-menu">
-                        <li class="footer-menu-item"><a href="#section_2" class="footer-menu-link">Our Story</a></li>
+                        <li class="footer-menu-item"><a href="#section_2" class="footer-menu-link">من نحن</a></li>
 
-                        <li class="footer-menu-item"><a href="#section_6" class="footer-menu-link">Partner with
-                                us</a>
+                        <li class="footer-menu-item"><a href="#section_6" class="footer-menu-link">كن شريكًا معنا</a>
                         </li>
 
-                        <li class="footer-menu-item"><a href="#section_3" class="footer-menu-link">Causes</a></li>
-
-
-
-
+                        <li class="footer-menu-item"><a href="#section_3" class="footer-menu-link">حدماتنا</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12 mx-auto">
-                    <h5 class="site-footer-title mb-3 text-white">Contact Infomation</h5>
+                    <h5 class="site-footer-title mb-3 text-white">معلومات</h5>
 
                     <p class="text-white d-flex mb-2">
                         <i class="bi-telephone me-2"></i>
 
-                        <a href="tel: 120-240-9600" class="site-footer-link">
+                        <a href="tel: 120-240-9600" class="site-footer-link mx-1">
                             120-240-9600
                         </a>
                     </p>
@@ -677,14 +679,14 @@
                     <p class="text-white d-flex">
                         <i class="bi-envelope me-2"></i>
 
-                        <a href="mailto:info@yourgmail.com" class="site-footer-link">
+                        <a href="mailto:info@yourgmail.com" class="site-footer-link mx-1">
                             donate@charity.org
                         </a>
                     </p>
 
                     <p class="text-white d-flex mt-3">
                         <i class="bi-geo-alt me-2"></i>
-                        Tabarbur, Amman, Jordan
+                        طبربور\ عمان - الأردن
                     </p>
 
                     {{-- <a href="#" class="custom-btn btn mt-3">Get Direction</a> --}}
