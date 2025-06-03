@@ -23,6 +23,8 @@
 
 
     <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.png') }}">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 
 </head>
@@ -251,44 +253,40 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-12 mb-5 mb-lg-0">
-                        <img src="images/group-people-volunteering-foodbank-poor-people.jpg"
-                            class="custom-text-box-image img-fluid" alt="">
+                        <img src="images/image1.jpg" class="custom-text-box-image img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-6 col-12">
                         <div class="custom-text-box">
-                            <h2 class="mb-2">Our Story</h2>
+                            <h2 class="mb-2">قصتنا</h2>
 
-                            <h5 class="mb-3">Kind Heart Charity, Non-Profit Organization</h5>
+                            <h5 class="mb-3">مشروع ألهمني</h5>
 
-                            <p class="mb-0">This is a Bootstrap 5.2.2 CSS template for charity organization websites.
-                                You can feel free to use it. Please tell your friends about TemplateMo website. Thank
-                                you. HTML CSS files updated on 20 Oct 2022.</p>
+                            <p class="mb-0">
+
+                                "ألهمني" مركز يعمل مع اليافعين من ذوي الإعاقة فوق عمر 15 سنة، يهدف إلى تأهيلهم
+                                اجتماعيًا، أكاديميًا، ومهنيًا.
+                                ما يُميز المركز هو النهج الميداني التطبيقي، حيث تُنقل المهارات المكتسبة في المركز إلى
+                                الحياة الواقعية من خلال تجارب مباشرة، زيارات مهنية، وتفاعل مجتمعي.
+                                كما يدعم المركز العودة للتعليم عبر التعليم المنزلي بالتنسيق مع وزارة التربية والتعليم،
+                                ويعمل ضمن خطط فردية لكل مشارك.
+                            </p>
                         </div>
 
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-12">
-                                <div class="custom-text-box mb-lg-0">
-                                    <h5 class="mb-3">Our Mission</h5>
+                                <div class="custom-text-box1 mb-lg-0">
+                                    <h5 class="mb-3">مهمتنا</h5>
 
-                                    <p>Sed leo nisl, posuere at molestie ac, suscipit auctor quis metus</p>
+                                    <p>دعم اليافعين من ذوي الإعاقة من خلال التعليم المتخصص، والعلاج التأهيلي، والتدريب
+                                        العملي.
+                                    </p>
 
-                                    <ul class="custom-list mt-2">
-                                        <li class="custom-list-item d-flex">
-                                            <i class="bi-check custom-text-box-icon me-2"></i>
-                                            Charity Theme
-                                        </li>
-
-                                        <li class="custom-list-item d-flex">
-                                            <i class="bi-check custom-text-box-icon me-2"></i>
-                                            Semantic HTML
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-12">
-                                <div class="custom-text-box d-flex flex-wrap d-lg-block mb-lg-0">
+                                <div class="custom-text-box1 d-flex flex-wrap d-lg-block mb-lg-0">
                                     <div class="counter-thumb">
                                         <div class="d-flex">
                                             <span class="counter-number" data-from="1" data-to="2009"
@@ -365,118 +363,114 @@
         <section class="section-padding" id="section_3">
             <div class="container">
                 <div class="row">
-
-                    <div class="col-lg-12 col-12 text-center mb-4">
-                        <h2>Our Causes</h2>
+                    <div class="col-12 text-center mb-4">
+                        <h2>خدماتنا</h2>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                        <div class="custom-block-wrap">
-                            <img src="images/causes/group-african-kids-paying-attention-class.jpg"
-                                class="custom-block-image img-fluid" alt="">
+                    <div class="col-12 position-relative">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
 
-                            <div class="custom-block">
-                                <div class="custom-block-body">
-                                    <h5 class="mb-3">Children Education</h5>
-
-                                    <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito</p>
-
-                                    <div class="progress mt-4">
-                                        <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <div class="d-flex align-items-center my-2">
-                                        <p class="mb-0">
-                                            <strong>Raised:</strong>
-                                            $18,500
-                                        </p>
-
-                                        <p class="ms-auto mb-0">
-                                            <strong>Goal:</strong>
-                                            $32,000
-                                        </p>
+                                <!-- الشريحة 1 -->
+                                <div class="swiper-slide">
+                                    <div class="custom-block-wrap">
+                                        <img src="images/image5.jpg" class="custom-block-image img-fluid"
+                                            alt="">
+                                        <div class="custom-block">
+                                            <div class="custom-block-body">
+                                                <h5>التحضير المهني والأكاديمي</h5>
+                                                <p>برامج تهدف إلى تزويد المراهقين من ذوي الإعاقة بالمهارات والمعرفة
+                                                    اللازمة للنجاح الأكاديمي وفرص العمل المستقبلية.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <a href="donate.html" class="custom-btn btn">Donate now</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                        <div class="custom-block-wrap">
-                            <img src="images/causes/poor-child-landfill-looks-forward-with-hope.jpg"
-                                class="custom-block-image img-fluid" alt="">
-
-                            <div class="custom-block">
-                                <div class="custom-block-body">
-                                    <h5 class="mb-3">Poverty Development</h5>
-
-                                    <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus
-                                        tempor</p>
-
-                                    <div class="progress mt-4">
-                                        <div class="progress-bar w-50" role="progressbar" aria-valuenow="50"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <div class="d-flex align-items-center my-2">
-                                        <p class="mb-0">
-                                            <strong>Raised:</strong>
-                                            $27,600
-                                        </p>
-
-                                        <p class="ms-auto mb-0">
-                                            <strong>Goal:</strong>
-                                            $60,000
-                                        </p>
+                                <!-- الشريحة 2 -->
+                                <div class="swiper-slide">
+                                    <div class="custom-block-wrap">
+                                        <img src="images/image2.jpg" class="custom-block-image img-fluid"
+                                            alt="">
+                                        <div class="custom-block">
+                                            <div class="custom-block-body">
+                                                <h5>التربية الخاصة</h5>
+                                                <p>دعم تعليمي فردي مصمم لتلبية الاحتياجات الفريدة للطلاب من ذوي الإعاقة.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <a href="donate.html" class="custom-btn btn">Donate now</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="custom-block-wrap">
-                            <img src="images/causes/african-woman-pouring-water-recipient-outdoors.jpg"
-                                class="custom-block-image img-fluid" alt="">
-
-                            <div class="custom-block">
-                                <div class="custom-block-body">
-                                    <h5 class="mb-3">Supply drinking water</h5>
-
-                                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                                    </p>
-
-                                    <div class="progress mt-4">
-                                        <div class="progress-bar w-100" role="progressbar" aria-valuenow="100"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <div class="d-flex align-items-center my-2">
-                                        <p class="mb-0">
-                                            <strong>Raised:</strong>
-                                            $84,600
-                                        </p>
-
-                                        <p class="ms-auto mb-0">
-                                            <strong>Goal:</strong>
-                                            $100,000
-                                        </p>
+                                <!-- الشريحة 3 -->
+                                <div class="swiper-slide">
+                                    <div class="custom-block-wrap">
+                                        <img src="images/image3.jpg" class="custom-block-image img-fluid"
+                                            alt="">
+                                        <div class="custom-block">
+                                            <div class="custom-block-body">
+                                                <h5>العلاج الوظيفي</h5>
+                                                <p>علاج يركّز على تحسين مهارات الحياة اليومية والاستقلالية للأشخاص الذين
+                                                    يواجهون تحديات جسدية أو معرفية.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <a href="donate.html" class="custom-btn btn">Donate now</a>
+                                <!-- الشريحة 4 -->
+                                <div class="swiper-slide">
+                                    <div class="custom-block-wrap">
+                                        <img src="images/image6.jpg" class="custom-block-image img-fluid"
+                                            alt="">
+                                        <div class="custom-block">
+                                            <div class="custom-block-body">
+                                                <h5>علاج النطق والسمع</h5>
+                                                <p>خدمات تدعم تطوير مهارات التواصل وتعالج صعوبات النطق أو السمع.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- الشريحة 5 -->
+                                <div class="swiper-slide">
+                                    <div class="custom-block-wrap">
+                                        <img src="images/image7.jpg" class="custom-block-image img-fluid"
+                                            alt="">
+                                        <div class="custom-block">
+                                            <div class="custom-block-body">
+                                                <h5>تعديل السلوك</h5>
+                                                <p>تدخلات تساعد الأفراد على تطوير سلوكيات إيجابية وتقليل السلوكيات
+                                                    الصعبة من خلال استراتيجيات منظمة.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- الشريحة 6 -->
+                                <div class="swiper-slide">
+                                    <div class="custom-block-wrap">
+                                        <img src="images/image8.jpg" class="custom-block-image img-fluid"
+                                            alt="">
+                                        <div class="custom-block">
+                                            <div class="custom-block-body">
+                                                <h5>التدريب الميداني</h5>
+                                                <p>تجارب تعليمية عملية في بيئات واقعية لتطبيق المهارات المكتسبة على أرض
+                                                    الواقع.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
+
+                            <!-- أسهم التمرير -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
+
 
 
 
@@ -570,7 +564,7 @@
 
                     <div class="col-lg-4 col-12 ms-auto mb-5 mb-lg-0">
                         <div class="contact-info-wrap">
-                            <h2>Get in touch</h2>
+                            <h2>تواصل معنا</h2>
 
                             {{-- <div class="contact-image-wrap d-flex flex-wrap">
                                 <img src="images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg"
@@ -583,7 +577,7 @@
                             </div> --}}
 
                             <div class="contact-info">
-                                <h5 class="mb-3">Contact Infomation</h5>
+                                <h5 class="mb-3">معلومات الأتصال</h5>
 
                                 <p class="d-flex mb-2">
                                     <i class="bi-geo-alt me-2"></i>
@@ -613,9 +607,9 @@
 
                     <div class="col-lg-5 col-12 mx-auto">
                         <form class="custom-form contact-form" action="#" method="post" role="form">
-                            <h2>Contact form</h2>
+                            <h2>نموذج التواصل</h2>
 
-                            <p class="mb-4">Or, you can just send an email:
+                            <p class="mb-4">أو يمكنك مباشرةً إرسال بريد إلكتروني إلى:
                                 <a href="#">info@charity.org</a>
                             </p>
                             <div class="row">
@@ -635,7 +629,7 @@
 
                             <textarea name="message" rows="5" class="form-control" id="message" placeholder="بماذا يمكننا مساعدتك؟"></textarea>
 
-                            <button type="submit" class="form-control">Send Message</button>
+                            <button type="submit" class="form-control">إرسال</button>
                         </form>
                     </div>
 
@@ -740,6 +734,30 @@
     <script src="js/click-scroll.js"></script>
     <script src="js/counter.js"></script>
     <script src="js/custom.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".swiper", {
+            loop: true,
+            spaceBetween: 20,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1
+                },
+                768: {
+                    slidesPerView: 2
+                },
+                992: {
+                    slidesPerView: 3
+                },
+            },
+        });
+    </script>
 
 </body>
 

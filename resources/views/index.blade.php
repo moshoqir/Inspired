@@ -20,6 +20,8 @@
 
     <link href="{{ asset('css/templatemo-kind-heart-charity.css') }}" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.png') }}">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 
 </head>
@@ -244,44 +246,42 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-12 mb-5 mb-lg-0">
-                        <img src="images/group-people-volunteering-foodbank-poor-people.jpg"
-                            class="custom-text-box-image img-fluid" alt="">
+                        <img src="images/image1.jpg" class="custom-text-box-image img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-6 col-12">
                         <div class="custom-text-box">
                             <h2 class="mb-2">Our Story</h2>
 
-                            <h5 class="mb-3">Kind Heart Charity, Non-Profit Organization</h5>
+                            <h5 class="mb-3">Project Inspired me, Non-Profit Organization</h5>
 
-                            <p class="mb-0">This is a Bootstrap 5.2.2 CSS template for charity organization websites.
-                                You can feel free to use it. Please tell your friends about TemplateMo website. Thank
-                                you. HTML CSS files updated on 20 Oct 2022.</p>
+                            <p class="mb-0">
+                                Inspired me is a center for youth with disabilities aged 15 and above. It empowers them
+                                socially, academically, and vocationally.
+                                The center’s core strength lies in its field-based approach, where skills are applied
+                                directly in real-life settings through hands-on experiences, workplace visits, and
+                                community interaction.
+                                It also supports returning to education through certified homeschooling in coordination
+                                with the Ministry of Education, with personalized plans for each participant.</p>
                         </div>
 
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-12">
-                                <div class="custom-text-box mb-lg-0">
+                                <div class="custom-text-box1 mb-lg-0">
                                     <h5 class="mb-3">Our Mission</h5>
 
-                                    <p>Sed leo nisl, posuere at molestie ac, suscipit auctor quis metus</p>
+                                    <p>
+                                        To support adolescents with disabilities through tailored education, therapy,
+                                        and training, helping them grow, thrive, and participate fully in society.
 
-                                    <ul class="custom-list mt-2">
-                                        <li class="custom-list-item d-flex">
-                                            <i class="bi-check custom-text-box-icon me-2"></i>
-                                            Charity Theme
-                                        </li>
+                                    </p>
 
-                                        <li class="custom-list-item d-flex">
-                                            <i class="bi-check custom-text-box-icon me-2"></i>
-                                            Semantic HTML
-                                        </li>
-                                    </ul>
+
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-12">
-                                <div class="custom-text-box d-flex flex-wrap d-lg-block mb-lg-0">
+                                <div class="custom-text-box1 d-flex flex-wrap d-lg-block mb-lg-0">
                                     <div class="counter-thumb">
                                         <div class="d-flex">
                                             <span class="counter-number" data-from="1" data-to="2009"
@@ -358,118 +358,119 @@
         <section class="section-padding" id="section_3">
             <div class="container">
                 <div class="row">
-
-                    <div class="col-lg-12 col-12 text-center mb-4">
-                        <h2>Our Causes</h2>
+                    <div class="col-12 text-center mb-4">
+                        <h2>Our Services</h2>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                        <div class="custom-block-wrap">
-                            <img src="images/causes/group-african-kids-paying-attention-class.jpg"
-                                class="custom-block-image img-fluid" alt="">
+                    <div class="col-12 position-relative">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
 
-                            <div class="custom-block">
-                                <div class="custom-block-body">
-                                    <h5 class="mb-3">Children Education</h5>
-
-                                    <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito</p>
-
-                                    <div class="progress mt-4">
-                                        <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <div class="d-flex align-items-center my-2">
-                                        <p class="mb-0">
-                                            <strong>Raised:</strong>
-                                            $18,500
-                                        </p>
-
-                                        <p class="ms-auto mb-0">
-                                            <strong>Goal:</strong>
-                                            $32,000
-                                        </p>
+                                <!-- Slide 1 -->
+                                <div class="swiper-slide">
+                                    <div class="custom-block-wrap">
+                                        <img src="images/image5.jpg" class="custom-block-image img-fluid"
+                                            alt="">
+                                        <div class="custom-block">
+                                            <div class="custom-block-body">
+                                                <h5>Vocational and Academic Preparation</h5>
+                                                <p>Programs designed to equip adolescents with disabilities with the
+                                                    skills and knowledge needed for academic success and future
+                                                    employment.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <a href="donate.html" class="custom-btn btn">Donate now</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                        <div class="custom-block-wrap">
-                            <img src="images/causes/poor-child-landfill-looks-forward-with-hope.jpg"
-                                class="custom-block-image img-fluid" alt="">
-
-                            <div class="custom-block">
-                                <div class="custom-block-body">
-                                    <h5 class="mb-3">Poverty Development</h5>
-
-                                    <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus
-                                        tempor</p>
-
-                                    <div class="progress mt-4">
-                                        <div class="progress-bar w-50" role="progressbar" aria-valuenow="50"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <div class="d-flex align-items-center my-2">
-                                        <p class="mb-0">
-                                            <strong>Raised:</strong>
-                                            $27,600
-                                        </p>
-
-                                        <p class="ms-auto mb-0">
-                                            <strong>Goal:</strong>
-                                            $60,000
-                                        </p>
+                                <!-- Slide 2 -->
+                                <div class="swiper-slide">
+                                    <div class="custom-block-wrap">
+                                        <img src="images/image2.jpg" class="custom-block-image img-fluid"
+                                            alt="">
+                                        <div class="custom-block">
+                                            <div class="custom-block-body">
+                                                <h5>Special Education</h5>
+                                                <p>Individualized educational support tailored to meet the unique needs
+                                                    of students with disabilities.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <a href="donate.html" class="custom-btn btn">Donate now</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="custom-block-wrap">
-                            <img src="images/causes/african-woman-pouring-water-recipient-outdoors.jpg"
-                                class="custom-block-image img-fluid" alt="">
-
-                            <div class="custom-block">
-                                <div class="custom-block-body">
-                                    <h5 class="mb-3">Supply drinking water</h5>
-
-                                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                                    </p>
-
-                                    <div class="progress mt-4">
-                                        <div class="progress-bar w-100" role="progressbar" aria-valuenow="100"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <div class="d-flex align-items-center my-2">
-                                        <p class="mb-0">
-                                            <strong>Raised:</strong>
-                                            $84,600
-                                        </p>
-
-                                        <p class="ms-auto mb-0">
-                                            <strong>Goal:</strong>
-                                            $100,000
-                                        </p>
+                                <!-- Slide 3 -->
+                                <div class="swiper-slide">
+                                    <div class="custom-block-wrap">
+                                        <img src="images/image3.jpg" class="custom-block-image img-fluid"
+                                            alt="">
+                                        <div class="custom-block">
+                                            <div class="custom-block-body">
+                                                <h5>Occupational Therapy</h5>
+                                                <p>Therapy focused on improving daily living skills and independence for
+                                                    individuals with physical or cognitive challenges.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <a href="donate.html" class="custom-btn btn">Donate now</a>
+                                <!-- Slide 4 -->
+                                <div class="swiper-slide">
+                                    <div class="custom-block-wrap">
+                                        <img src="images/image6.jpg" class="custom-block-image img-fluid"
+                                            alt="">
+                                        <div class="custom-block">
+                                            <div class="custom-block-body">
+                                                <h5>Speech and Hearing Therapy</h5>
+                                                <p>Services that support the development of communication skills and
+                                                    address hearing or speech difficulties.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Slide 5 -->
+                                <div class="swiper-slide">
+                                    <div class="custom-block-wrap">
+                                        <img src="images/image7.jpg" class="custom-block-image img-fluid"
+                                            alt="">
+                                        <div class="custom-block">
+                                            <div class="custom-block-body">
+                                                <h5>Behavior Modification</h5>
+                                                <p>Interventions that help individuals develop positive behaviors and
+                                                    reduce challenging ones through structured strategies.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Slide 6 -->
+                                <div class="swiper-slide">
+                                    <div class="custom-block-wrap">
+                                        <img src="images/image8.jpg" class="custom-block-image img-fluid"
+                                            alt="">
+                                        <div class="custom-block">
+                                            <div class="custom-block-body">
+                                                <h5>Field Training</h5>
+                                                <p>Hands-on learning experiences in real-world settings to apply
+                                                    acquired skills in practice.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
+
+                            <!-- Arrows -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
+
+
+
+
 
 
 
@@ -738,6 +739,31 @@
     <script src="js/click-scroll.js"></script>
     <script src="js/counter.js"></script>
     <script src="js/custom.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".swiper", {
+            loop: true,
+            spaceBetween: 20,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1
+                },
+                768: {
+                    slidesPerView: 2
+                },
+                992: {
+                    slidesPerView: 3
+                },
+            },
+        });
+    </script>
+
 
 </body>
 
