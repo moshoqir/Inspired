@@ -10,6 +10,10 @@
 
     <title>ألهمني</title>
 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
     <!-- Font Awesome 6 (Free Version) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -44,8 +48,8 @@
                     <p class="d-flex mb-0">
                         <i class="bi-envelope me-2"></i>
 
-                        <a href="mailto:info@company.com">
-                            info@company.com
+                        <a href="mailto:info@albaikcenter.com">
+                            info@albaikcenter.com
                         </a>
                     </p>
                 </div>
@@ -69,7 +73,8 @@
                         </li>
 
                         <li class="social-icon-item">
-                            <a href="#" class="social-icon-link bi-whatsapp"></a>
+                            <a href="https://wa.me/+962778093528"
+                                target="_blank"class="social-icon-link bi-whatsapp"></a>
                         </li>
 
                         <li class="social-icon-item">
@@ -100,8 +105,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav" style="margin-right: 23rem;
-">
+            <div class="collapse navbar-collapse ms-3" id="navbarNav" style="margin-right: 31rem;">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link click-scroll" href="#top">الرئيسية</a>
@@ -289,23 +293,23 @@
                                 <div class="custom-text-box1 d-flex flex-wrap d-lg-block mb-lg-0">
                                     <div class="counter-thumb">
                                         <div class="d-flex">
-                                            <span class="counter-number" data-from="1" data-to="2009"
+                                            <span class="counter-number" data-from="1" data-to="2024"
                                                 data-speed="1000"></span>
                                             <span class="counter-number-text"></span>
                                         </div>
 
-                                        <span class="counter-text">Founded</span>
+                                        <span class="counter-text ">تأسست</span>
                                     </div>
 
-                                    <div class="counter-thumb mt-4">
+                                    {{-- <div class="counter-thumb mt-4">
                                         <div class="d-flex">
                                             <span class="counter-number" data-from="1" data-to="120"
                                                 data-speed="1000"></span>
                                             <span class="counter-number-text">B</span>
                                         </div>
 
-                                        <span class="counter-text">Donations</span>
-                                    </div>
+                                        <span class="counter-text">عدد الطلاب</span>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -587,16 +591,16 @@
                                 <p class="d-flex mb-2">
                                     <i class="bi-telephone me-2 mx-1"></i>
 
-                                    <a href="tel: 120-240-9600">
-                                        120-240-9600
+                                    <a href="tel:  +962 7 7809 3528">
+                                        +962 7 7809 3528
                                     </a>
                                 </p>
 
                                 <p class="d-flex">
                                     <i class="bi-envelope me-2 mx-1"></i>
 
-                                    <a href="mailto:info@yourgmail.com">
-                                        donate@charity.org
+                                    <a href="mailto:info@albaikcenter.com">
+                                        info@albaikcenter.com
                                     </a>
                                 </p>
 
@@ -606,26 +610,44 @@
                     </div>
 
                     <div class="col-lg-5 col-12 mx-auto">
-                        <form class="custom-form contact-form" action="#" method="post" role="form">
-                            <h2>نموذج التواصل</h2>
+                        <form class="custom-form contact-form" action="{{ route('contact.submit.ar') }}"
+                            method="post" role="form">
+                            @csrf
+                            @if (session('success'))
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    {{ session('success') }}
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                        aria-label="Close"></button>
+                                </div>
+                            @endif
+                            <h2>نموذج الأتصال</h2>
 
                             <p class="mb-4">أو يمكنك مباشرةً إرسال بريد إلكتروني إلى:
-                                <a href="#">info@charity.org</a>
+                                <a href="mailto:info@albaikcenter.com">info@albaikcenter.com</a>
                             </p>
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-12">
-                                    <input type="text" name="first-name" id="first-name" class="form-control"
-                                        placeholder="الاسم الاول" required>
+                                <div class="col-lg-12 col-md-12 col-12">
+                                    <input type="text" name="name" id="name" class="form-control"
+                                        placeholder="الاسم" required>
                                 </div>
 
-                                <div class="col-lg-6 col-md-6 col-12">
-                                    <input type="text" name="last-name" id="last-name" class="form-control"
-                                        placeholder="الاسم الاخير" required>
-                                </div>
+
                             </div>
 
                             <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"
-                                class="form-control" placeholder="البريد الاكتروني" required>
+                                class="form-control" placeholder="البريد الالكتروني" required>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <input type="number" name="phone" id="phone" class="form-control"
+                                        placeholder="رقم الهاتف" required>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <input type="text" name="subject" id="subject" class="form-control"
+                                        placeholder="الموضوع" required>
+                                </div>
+                            </div>
 
                             <textarea name="message" rows="5" class="form-control" id="message" placeholder="بماذا يمكننا مساعدتك؟"></textarea>
 
@@ -665,16 +687,16 @@
                     <p class="text-white d-flex mb-2">
                         <i class="bi-telephone me-2"></i>
 
-                        <a href="tel: 120-240-9600" class="site-footer-link mx-1">
-                            120-240-9600
+                        <a href="tel:  +962 7 7809 3528" class="site-footer-link mx-1">
+                            +962 7 7809 3528
                         </a>
                     </p>
 
                     <p class="text-white d-flex">
                         <i class="bi-envelope me-2"></i>
 
-                        <a href="mailto:info@yourgmail.com" class="site-footer-link mx-1">
-                            donate@charity.org
+                        <a href="mailto:info@albaikcenter.com" class="site-footer-link mx-1">
+                            info@albaikcenter.com
                         </a>
                     </p>
 
@@ -693,8 +715,8 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-md-7 col-12">
-                        <p class="copyright-text mb-0">Copyright © {{ date('Y') }} <a href="#">Kind
-                                Heart</a> Charity Org.
+                        <p class="copyright-text mb-0">Copyright © {{ date('Y') }} <a href="#">
+                                Inspired</a> Charity Org.
 
                     </div>
 
@@ -758,6 +780,9 @@
             },
         });
     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 
